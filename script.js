@@ -3,7 +3,7 @@ function compute()
     p = document.getElementById("principal").value;
     
     if (p<=0) {
-        alert("Please Enter a Number Greater than Zero ");
+        alert("Please Enter a Positive Number! ");
         document.getElementById("principal").focus();
     
     }
